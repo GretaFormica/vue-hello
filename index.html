@@ -8,14 +8,16 @@
     <title>vue</title>
 
     <!-- vue -->
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
 
     <!-- script -->
-    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./script.js" defer></script>
 </head>
 
 <body>
-    <h1 id="h1"></h1>
+    <h1 id="h1">
+        {{message}}
+    </h1>
 </body>
 
 </html>
