@@ -15,13 +15,15 @@
 </head>
 
 <body>
-    <h1 id="h1">
-        {{message}}
-    </h1>
+    <div id="root">
+        <h1>
+            {{message}}
+        </h1>
 
-    <div id="img">
-        {{message}}
+        <img v-bind:src="image" alt="">
+
     </div>
+
 </body>
 
 </html>
